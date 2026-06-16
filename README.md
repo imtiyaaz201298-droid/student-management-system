@@ -129,7 +129,7 @@ git clone https://github.com/imtiyaaz201298-droid/student-management-system.git
 
 8. Open the browser and access:
 
-http://localhost:8080/SMS
+http://localhost:8085/SMS
 
 ---
 
