@@ -1,0 +1,98 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f8;
+}
+
+/* Center Container */
+.container{
+    width:400px;
+    margin:80px auto;
+    padding:25px;
+    background:#ffffff;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1,h2,h3{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+/* Form Inputs */
+input[type=text],
+input[type=password]{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+/* Buttons */
+input[type=submit],
+button{
+    width:100%;
+    padding:10px;
+    background:#007bff;
+    border:none;
+    color:white;
+    font-size:16px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background:#0056b3;
+}
+
+/* Links as buttons */
+a{
+    display:inline-block;
+    padding:10px 15px;
+    margin:10px 5px;
+    background:#28a745;
+    color:white;
+    text-decoration:none;
+    border-radius:4px;
+}
+
+a:hover{
+    background:#1e7e34;
+}
+
+/* Table */
+table{
+    width:90%;
+    margin:30px auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th, table td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+table th{
+    background:#007bff;
+    color:white;
+}
+
+/* Logout Button */
+.logout{
+    background:#dc3545;
+}
+.logout:hover{
+    background:#c82333;
+}
